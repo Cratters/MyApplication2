@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.auser.myapplication.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+         />
+    <item
+        android:id="@+id/item1"
+        android:title="@string/number1" />
+    <item
+        android:id="@+id/item2"
+        android:title="@string/number2" />
+    <item
+        android:id="@+id/item3"
+        android:title="@string/number3" />
+    <item
+        android:id="@+id/item4"
+        android:title="@string/number4" >
+        <menu>
+            <item android:title="SubItem1" android:id="@+id/subitem1"/>
+            <item android:title="SubItem2" android:id="@+id/subitem2"/>
+            <item android:title="SubItem3" android:id="@+id/subitem3"/>
+            <item android:title="SubItem4" android:id="@+id/subitem4"/>
+            <item android:title="SubItem5" android:id="@+id/subitem5"/>
+        </menu>
+
+    </item>
+</menu>

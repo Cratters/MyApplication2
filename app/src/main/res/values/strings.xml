@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="number1">麥脆雞</string>
+    <string name="number2">麥克大漢堡</string>
+    <string name="number3">勁辣雞腿堡</string>
+    <string name="number4">麥克雞塊</string>
+</resources>
